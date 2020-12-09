@@ -75,19 +75,25 @@
         <div class="col-md-6 half p-3 py-5 pl-md-5 ftco-animate heading-section heading-section-white">
           <span class="subheading">Хотите получить деньги ?</span>
           <h2 class="mb-4">Оставить заявку</h2>
-          <form action="#" class="consultation">
+        <form class="consultation">
+            <!-- Hidden Required Fields -->
+            <input type="hidden" name="project_name" value="ORO Ломбард">
+            <input type="hidden" name="admin_email" value="request@oro-lombard.kz">
+            <input type="hidden" name="form_subject" value="Новая заявка">
+            <!-- END Hidden Required Fields -->
+        
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Введите имя">
+              <input type="text" name="Name" class="form-control" placeholder="Введите имя">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Введите номер">
+              <input type="text" name="Number" class="form-control" placeholder="Введите номер">
             </div>
             
             <div class="form-group">
-              <textarea  cols="30" rows="7" class="form-control" placeholder="Комментарий (Не обязательно)"></textarea>
-            </div>
+              <textarea cols="30" rows="7" name="Comment" class="form-control" placeholder="Комментарий (Не обязательно)"></textarea>						  
+       </div>
             <div class="form-group">
-              <button type="button" id="btn_send" class="btn btn-dark py-3 px-4">Отправить</button>
+              <button class="btn btn-dark py-3 px-4">Отправить</button>
             </div>
           </form>
         </div>
