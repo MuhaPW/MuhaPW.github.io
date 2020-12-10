@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>ORO Ломбард</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Новый ломбард <span>ORO Ломбард</span></h1>
+            <p class="animated fadeInRightBig">Прием золота и оргтехники.</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Как получить деньги ?</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Получить наличные деньги</br><span>просто!</span></h1>
+            <p class="animated fadeInRightBig">Прием золота и оргтехники.</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Как получить деньги ?</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Получить наличные деньги</br><span>быстро!</span></h1>
+            <p class="animated fadeInRightBig">Прием золота и оргтехники.</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Как получить деньги ?</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll active"><a href="#home">Главная</a></li>
+            <li class="scroll"><a href="#leaveRequest">Оставить заявку</a></li> 
+            <li class="scroll"><a href="#pricing">Условия займа</a></li> 
+            <li class="scroll"><a href="#contracts">Договора присоединения</a></li> 
+            <li class="scroll"><a href="#contact">Контакты</a></li> 
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+
+  <section id="leaveRequest">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Оставить заявку</h2>
+            <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>-->
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div>
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Имя" required="required">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input type="text" name="email" class="form-control" placeholder="Номер телефона" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Комментарий (не обязательно)" required="required"></textarea>
+                </div>                        
+                <div class="form-group">
+                  <button type="submit" class="btn-submit">Отправить</button>
+                </div>
+              </form>   
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </section><!--/#leaveRequest-->
+
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Как получить деньги ?</h2>
+            <p>3 шага для получения денег</p>
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <img src="images/lightbox/first.svg">
+            </div>
+            <div class="service-info">
+              <h3>Оставьте заявку</h3>
+              <p>Оставьте заявку на нашем сайте или звоните по тел. +7-778-975-40-40</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <img src="images/lightbox/second.svg">
+            </div>
+            <div class="service-info">
+              <h3>Оценка залогового имущества</h3>
+              <p>Эксперт-оценщик производит оценку залогового имущества, оформляем сделку.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <img src="images/lightbox/third.svg"> 
+            </div>
+            <div class="service-info">
+              <h3>Получение денег</h3>
+              <p>Получаете сумму наличными.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center col-sm-8 col-sm-offset-2">
+        <a href="#leaveRequest" class="btn btn-lg btn-primary">Оставить заявку</a>
+      </div>
+    </div>
+  </section><!--/#services-->
+
+  <section id="pricing">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Наши условия займа</h2>
+          <p>Узнайте подробно про наши условия займа.</p>
+        </div>
+      </div>
+      <div class="pricing-table our-services">
+        <div class="row">
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <img src="images/lightbox/loan_standart.svg">
+            </div>
+            <div class="service-info">
+              <h3>Стандартный</h3>
+              <p>Откройте документ и ознакомьтесь с стандартным </br> условием займа.</p>
+              <a href="#" class="btn btn-lg">Открыть</a>
+            </div>
+          </div>
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <img src="images/lightbox/loan_beneficial.svg">
+            </div>
+            <div class="service-info">
+              <h3>Выгодный</h3>
+              <p>Откройте документ и ознакомьтесь с выгодным </br> условием займа.</p>
+              <a href="#" class="btn btn-lg">Открыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#pricing-->
+
+  <section id="contracts">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Договора присоединения</h2>
+          <p>Узнайте подробно про наши договора присоединения.</p>
+        </div>
+      </div>
+      <div class="pricing-table our-services">
+        <div class="row">
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <img src="images/lightbox/contract_less_50.svg">
+            </div>
+            <div class="service-info">
+              <h3>Договор присоединения до 50 МРП</h3>
+              <p>Откройте документ и ознакомьтесь с договором </br> присоединения до 50 МРП.</p>
+              <a href="#" class="btn btn-lg">Открыть</a>
+            </div>
+          </div>
+          <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <img src="images/lightbox/contract_more_50.svg">
+            </div>
+            <div class="service-info">
+              <h3>Договор присоединения свыше 50 МРП</h3>
+              <p>Откройте документ и ознакомьтесь с договором </br> присоединения свыше 50 МРП.</p>
+              <a href="#" class="btn btn-lg">Открыть</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#contracts-->
+
+  <section id="contact">
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Наши контакты</h2>
+            <p>Если у вас остались вопросы, мы всегда рады ответить на них!</p>
+          </div>
+        </div>
+        <div class="contact-info wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="address">
+                <li><i class="fa fa-map-marker"></i> <span> Адрес:</span> Г.Жаркент </li>
+                <li><i class="fa fa-phone"></i> <span> Номер:</span> +7-778-975-40-40 </li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul class="address">
+                <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:oro.lombard@mail.ru"> oro.lombard@mail.ru </a></li>
+                <li><i class="fa fa-instagram"></i> <span> Instagram:</span><a href="#"> @oro_lombard </a></li>
+              </ul>                        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A6e02b06d6302f941e22c4d919078adb3349a8c18b3e4f3aa139ed6b585df8202&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>      
+  </section><!--/#contact-->
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
